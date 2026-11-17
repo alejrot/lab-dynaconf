@@ -1,0 +1,14 @@
+# entorno de pruebas (local) - sistema anfitrión
+[development]
+host = "localhost"
+puerto = 8000
+
+# entorno de producción - servidor remoto
+[production]
+host = "server.provider.com"
+puerto = 80
+
+# despliegue en contenedores
+[container]
+host = "container-server"
+# puerto = 8000         # valor anulado/faltante

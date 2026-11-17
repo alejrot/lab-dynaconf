@@ -1,0 +1,7 @@
+# parametros simples
+user = "admin"
+
+# parametros anidados
+[red]
+host="127.0.0.1"
+puerto=8000
